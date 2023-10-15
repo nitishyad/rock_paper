@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #89C15E;
+}
+
+div {
+    position: relative;
+    display: inline;
+    margin-left: 25rem;
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+.imtip {
+    position: absolute;
+    bottom: -8px;
+    right: 144px;
+}
+
+.para_6 {
+    font-weight: 600;
+    font-size: 91px;
+    letter-spacing: 12px;
+    margin-left: 25rem;
+    color: white;
+
+
+}
+
+.para_4 {
+
+    margin-left: 25rem;
+    font-size: 41px;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.play-again {
+    background: #fff;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 0.6rem;
+    color: var(--dark-text);
+    padding: 0.6rem 3.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    margin-top: 11rem;
+    margin-left: 32rem;
+}
+
+.rules-btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 10rem;
+    background: none;
+    outline: none;
+    border: 2px solid var(--outline);
+    border-radius: 0.6rem;
+    color: var(--light-text);
+    padding: 0.6rem 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+}
+
+.rules-btn:focus {
+    border: 2px solid #fff;
+}
